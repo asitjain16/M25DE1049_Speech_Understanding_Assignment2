@@ -1,0 +1,158 @@
+{
+  "speech": {
+    "maithili": "बोली",
+    "santhali": "roro"
+  },
+  "sound": {
+    "maithili": "आवाज",
+    "santhali": "kulhi"
+  },
+  "voice": {
+    "maithili": "स्वर",
+    "santhali": "kulhi"
+  },
+  "language": {
+    "maithili": "भाषा",
+    "santhali": "paṛsi"
+  },
+  "word": {
+    "maithili": "शब्द",
+    "santhali": "kaji"
+  },
+  "sentence": {
+    "maithili": "वाक्य",
+    "santhali": "kaji"
+  },
+  "phoneme": {
+    "maithili": "ध्वनि",
+    "santhali": "kulhi"
+  },
+  "acoustic": {
+    "maithili": "ध्वनिक",
+    "santhali": "kulhi"
+  },
+  "frequency": {
+    "maithili": "आवृत्ति",
+    "santhali": "bar"
+  },
+  "pitch": {
+    "maithili": "स्वर",
+    "santhali": "sur"
+  },
+  "is": {
+    "maithili": "छै",
+    "santhali": "menaḱa"
+  },
+  "are": {
+    "maithili": "छै",
+    "santhali": "menaḱa"
+  },
+  "have": {
+    "maithili": "अछि",
+    "santhali": "menaḱa"
+  },
+  "do": {
+    "maithili": "करै",
+    "santhali": "kaji"
+  },
+  "make": {
+    "maithili": "बनाबै",
+    "santhali": "benaoa"
+  },
+  "use": {
+    "maithili": "प्रयोग करै",
+    "santhali": "beohar"
+  },
+  "get": {
+    "maithili": "पाबै",
+    "santhali": "ñam"
+  },
+  "know": {
+    "maithili": "जानै",
+    "santhali": "bujhaoa"
+  },
+  "one": {
+    "maithili": "एक",
+    "santhali": "miṭ"
+  },
+  "two": {
+    "maithili": "दू",
+    "santhali": "bar"
+  },
+  "three": {
+    "maithili": "तीन",
+    "santhali": "pe"
+  },
+  "four": {
+    "maithili": "चारि",
+    "santhali": "pon"
+  },
+  "five": {
+    "maithili": "पाँच",
+    "santhali": "moṛe"
+  },
+  "the": {
+    "maithili": "",
+    "santhali": ""
+  },
+  "a": {
+    "maithili": "एक",
+    "santhali": "miṭ"
+  },
+  "and": {
+    "maithili": "आ",
+    "santhali": "ar"
+  },
+  "or": {
+    "maithili": "वा",
+    "santhali": "ba"
+  },
+  "but": {
+    "maithili": "मुदा",
+    "santhali": "menkhan"
+  },
+  "in": {
+    "maithili": "मे",
+    "santhali": "re"
+  },
+  "on": {
+    "maithili": "पर",
+    "santhali": "oḍoḱ"
+  },
+  "at": {
+    "maithili": "पर",
+    "santhali": "re"
+  },
+  "to": {
+    "maithili": "के",
+    "santhali": "te"
+  },
+  "from": {
+    "maithili": "सँ",
+    "santhali": "khon"
+  },
+  "with": {
+    "maithili": "सँ",
+    "santhali": "saṅgin"
+  },
+  "this": {
+    "maithili": "ई",
+    "santhali": "noa"
+  },
+  "that": {
+    "maithili": "ओ",
+    "santhali": "ona"
+  },
+  "we": {
+    "maithili": "हम",
+    "santhali": "abo"
+  },
+  "you": {
+    "maithili": "अहाँ",
+    "santhali": "am"
+  },
+  "they": {
+    "maithili": "ओ",
+    "santhali": "abo"
+  }
+}

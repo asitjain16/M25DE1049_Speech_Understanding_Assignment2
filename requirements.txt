@@ -1,0 +1,63 @@
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.1
+audioread>=3.0.0
+
+# Speech-to-Text
+openai-whisper>=20230314
+transformers>=4.30.0
+datasets>=2.12.0
+
+# Text-to-Speech (Alternative for Python 3.12)
+# TTS (Coqui) not compatible with Python 3.12
+# Using alternatives:
+pyttsx3>=2.90  # Offline TTS
+gTTS>=2.3.0    # Google TTS (online)
+# For advanced TTS, use: pip install git+https://github.com/coqui-ai/TTS.git@dev
+
+# Language processing
+# indic-nlp-library>=0.92  # May have compatibility issues
+# aksharamukha>=2.1.1      # May have compatibility issues
+epitran>=1.24
+
+# Video/Audio download
+yt-dlp>=2023.3.4
+
+# Denoising
+# df>=0.5.0  # DeepFilterNet - may have issues with Python 3.12
+noisereduce>=3.0.0
+
+# DTW and alignment
+# dtaidistance>=2.3.10  # May have compilation issues
+fastdtw>=0.3.4
+
+# Evaluation metrics
+jiwer>=3.0.0
+# pesq>=0.0.4    # May have issues
+# pystoi>=0.3.3  # May have issues
+
+# Anti-spoofing
+# speechbrain>=0.5.15  # May have compatibility issues
+
+# Adversarial
+# foolbox>=3.3.3      # May have issues
+# cleverhans>=4.0.0   # May have issues
+
+# Utilities
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+tqdm>=4.65.0
+pyyaml>=6.0
+scikit-learn>=1.2.0
+
+# Additional utilities
+requests>=2.31.0
+Pillow>=10.0.0

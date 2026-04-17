@@ -1,0 +1,91 @@
+# Configuration for Speech Processing Pipeline
+
+# Video source
+video:
+  url: "https://youtu.be/ZPUtA3W-7_I?si=wCClM6UD1HmuYHTa"
+  start_time: "2:20:00"
+  end_time: "2:54:00"
+  duration: 600
+
+# Audio settings
+audio:
+  sample_rate: 22050
+  channels: 1
+  bit_depth: 16
+
+# Part 1: STT Configuration
+stt:
+  model: "openai/whisper-base"
+  language: ["en", "hi"]
+  
+  lid:
+    frame_size: 0.025
+    frame_shift: 0.010
+    target_f1: 0.85
+    
+  decoding:
+    beam_size: 5
+    ngram_order: 3
+    logit_bias_weight: 1.5
+    
+  denoising:
+    method: "deepfilternet"
+    noise_reduce_strength: 0.7
+
+# Part 2: Translation Configuration
+translation:
+  target_lrl: "maithili"
+  
+  ipa:
+    use_custom_g2p: true
+    hinglish_rules: "data/hinglish_phonology.json"
+    
+  dictionary:
+    path: "data/technical_terms_dict.json"
+    min_entries: 500
+
+# Part 3: TTS Configuration
+tts:
+  model: "tts_models/multilingual/multi-dataset/your_tts"
+  
+  reference:
+    path: "data/reference/student_voice_ref.wav"
+    duration: 60
+    
+  prosody:
+    use_dtw: true
+    f0_weight: 0.7
+    energy_weight: 0.3
+    dtw_window: 50
+    
+  output:
+    sample_rate: 22050
+    format: "wav"
+
+# Part 4: Adversarial & Anti-Spoofing
+adversarial:
+  antispoofing:
+    features: "lfcc"
+    model: "lcnn"
+    target_eer: 0.10
+    
+  attack:
+    method: "fgsm"
+    epsilon_range: [0.001, 0.1]
+    target_snr: 40
+    segment_duration: 5
+
+# Evaluation thresholds
+evaluation:
+  wer_english: 0.15
+  wer_hindi: 0.25
+  mcd_threshold: 8.0
+  lid_tolerance_ms: 200
+  eer_threshold: 0.10
+
+# Paths
+paths:
+  data_dir: "data"
+  models_dir: "models"
+  output_dir: "outputs"
+  report_dir: "report"

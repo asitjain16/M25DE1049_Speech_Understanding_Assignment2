@@ -1,0 +1,59 @@
+# Full requirements for Python 3.11 (Recommended)
+# Use this if you switch to Python 3.11 for full compatibility
+
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.1
+audioread>=3.0.0
+
+# Speech-to-Text
+openai-whisper>=20230314
+transformers>=4.30.0
+datasets>=2.12.0
+
+# Text-to-Speech
+TTS>=0.15.0
+phonemizer>=3.2.0
+
+# Language processing
+indic-nlp-library>=0.92
+aksharamukha>=2.1.1
+epitran>=1.24
+
+# Video/Audio download
+yt-dlp>=2023.3.4
+
+# Denoising
+df>=0.5.0
+noisereduce>=3.0.0
+
+# DTW and alignment
+dtaidistance>=2.3.10
+fastdtw>=0.3.4
+
+# Evaluation metrics
+jiwer>=3.0.0
+pesq>=0.0.4
+pystoi>=0.3.3
+
+# Anti-spoofing
+speechbrain>=0.5.15
+
+# Adversarial
+foolbox>=3.3.3
+cleverhans>=4.0.0
+
+# Utilities
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+tqdm>=4.65.0
+pyyaml>=6.0
+scikit-learn>=1.2.0
